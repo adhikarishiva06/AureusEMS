@@ -268,6 +268,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\MyStyles\" />
+    <Folder Include="Scripts\MyScripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -276,6 +278,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AureusEMS.BLL\AureusEMS.BLL.csproj">
+      <Project>{93a7900d-8ad1-4ab4-a244-86d7103b2ee2}</Project>
+      <Name>AureusEMS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AureusEMS.DAL\AureusEMS.DAL.csproj">
+      <Project>{7f732111-c8d5-45bf-8c83-420a5818f536}</Project>
+      <Name>AureusEMS.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

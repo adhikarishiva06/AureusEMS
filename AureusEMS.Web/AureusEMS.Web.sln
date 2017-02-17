@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AureusEMS.Web", "AureusEMS.Web\AureusEMS.Web.csproj", "{1BB4B04F-1E20-4EB6-8603-F48F576B6F5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AureusEMS.DAL", "AureusEMS.DAL\AureusEMS.DAL.csproj", "{7F732111-C8D5-45BF-8C83-420A5818F536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AureusEMS.BLL", "AureusEMS.BLL\AureusEMS.BLL.csproj", "{93A7900D-8AD1-4AB4-A244-86D7103B2EE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1BB4B04F-1E20-4EB6-8603-F48F576B6F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BB4B04F-1E20-4EB6-8603-F48F576B6F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BB4B04F-1E20-4EB6-8603-F48F576B6F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F732111-C8D5-45BF-8C83-420A5818F536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F732111-C8D5-45BF-8C83-420A5818F536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F732111-C8D5-45BF-8C83-420A5818F536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F732111-C8D5-45BF-8C83-420A5818F536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A7900D-8AD1-4AB4-A244-86D7103B2EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A7900D-8AD1-4AB4-A244-86D7103B2EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A7900D-8AD1-4AB4-A244-86D7103B2EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A7900D-8AD1-4AB4-A244-86D7103B2EE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
